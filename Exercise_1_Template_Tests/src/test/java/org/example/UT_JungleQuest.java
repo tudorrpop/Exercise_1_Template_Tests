@@ -1,10 +1,11 @@
 package org.example;
+import exercise.JungleQuest;
 
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 
-import static junit.framework.Assert.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 public class UT_JungleQuest {
 
@@ -19,5 +20,4 @@ public class UT_JungleQuest {
         JungleQuest jungleQuest = new JungleQuest();
         assertNotNull(jungleQuest.calculateFoodSupplies(new ArrayList<>()));
     }
-
 }
