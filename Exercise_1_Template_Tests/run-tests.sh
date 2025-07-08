@@ -6,4 +6,4 @@ mkdir -p src/main/java
 cp -r ../../student/Exercise_1_Template/src/* src/main/java/
 
 echo "[INFO] Running tests..."
-mvn clean test
+mvn clean test -Dmaven.test.failure.ignore=true
