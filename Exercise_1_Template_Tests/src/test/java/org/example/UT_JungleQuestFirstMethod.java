@@ -11,6 +11,6 @@ public class UT_JungleQuestFirstMethod {
     @Test
     public void categorizeExpeditionTeamsTest() {
         JungleQuest jungleQuest = new JungleQuest();
-        assertNotNull("Expected non-null result!", jungleQuest.categorizeExpeditionTeams(new ArrayList<>(), 0, 0));
+        assertNotNull(jungleQuest.categorizeExpeditionTeams(new ArrayList<>(), 0, 0), "Expected non-null result!");
     }
 }

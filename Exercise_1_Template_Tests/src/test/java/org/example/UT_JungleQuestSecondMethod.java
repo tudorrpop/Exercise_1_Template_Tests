@@ -11,6 +11,6 @@ public class UT_JungleQuestSecondMethod {
     @Test
     public void calculateFoodSuppliesTest() {
         JungleQuest jungleQuest = new JungleQuest();
-        assertNotNull("Expected non-null result!", jungleQuest.calculateFoodSupplies(new ArrayList<>()));
+        assertNotNull(jungleQuest.calculateFoodSupplies(new ArrayList<>()), "Expected non-null result!");
     }
 }
