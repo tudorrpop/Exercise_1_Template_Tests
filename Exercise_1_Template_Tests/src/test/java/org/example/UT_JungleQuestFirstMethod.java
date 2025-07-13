@@ -7,17 +7,10 @@ import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-public class UT_JungleQuest {
-
+public class UT_JungleQuestFirstMethod {
     @Test
     public void categorizeExpeditionTeamsTest() {
         JungleQuest jungleQuest = new JungleQuest();
         assertNotNull(jungleQuest.categorizeExpeditionTeams(new ArrayList<>(), 0, 0));
-    }
-
-    @Test
-    public void calculateFoodSuppliesTest() {
-        JungleQuest jungleQuest = new JungleQuest();
-        assertNotNull(jungleQuest.calculateFoodSupplies(new ArrayList<>()));
     }
 }
