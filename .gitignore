@@ -1,0 +1,66 @@
+# ==========================================
+# MAVEN (Crucial for Jenkins Pipeline)
+# ==========================================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ==========================================
+# COMPILED JAVA & LOGS
+# ==========================================
+*.class
+*.log
+
+# ==========================================
+# PACKAGED ARCHIVES
+# ==========================================
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ==========================================
+# INTELLIJ IDEA
+# ==========================================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# ==========================================
+# ECLIPSE
+# ==========================================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+bin/
+
+# ==========================================
+# VISUAL STUDIO CODE
+# ==========================================
+.vscode/
+
+# ==========================================
+# OS GENERATED FILES (Mac & Windows)
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
