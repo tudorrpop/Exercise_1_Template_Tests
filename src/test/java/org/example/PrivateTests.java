@@ -22,7 +22,7 @@ public class PrivateTests {
     @Test
     public void calculateFoodSuppliesTest() {
         JungleQuest jungleQuest = new JungleQuest();
-        assertFalse(jungleQuest.calculateFoodSupplies(new ArrayList<>(), 0, 0).isEmpty(),
+        assertFalse(jungleQuest.calculateFoodSupplies(new ArrayList<>()).isEmpty(),
                 "calculateFoodSupplies should not return an empty map");
     }
 }
