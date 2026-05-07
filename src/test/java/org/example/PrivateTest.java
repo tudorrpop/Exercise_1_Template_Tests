@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 
 @Tag("private")
-public class PrivateTests {
+public class PrivateTest {
 
     @Test
     public void categorizeExpeditionTeamsTest() {
